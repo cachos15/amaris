@@ -32,7 +32,7 @@
 .nav-item{
     font-weight: bold;
     font-size: 18px;
-    color: $lt-blue;
+    color: $lt-blue !important;
 }
 
 .navbar-right{
@@ -43,4 +43,14 @@
 
 .purple{
     color: $bt-purple !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .bt-space{
+        margin: 0px 5px;
+    }
+
+    .navbar-brand{
+        margin: 0px;
+    }
 }
