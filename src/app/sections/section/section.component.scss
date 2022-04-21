@@ -13,7 +13,7 @@
 .card-1{
     position: relative;
     left: 20px;
-    top: 50px;
+    top: 0px;
     float: left;
     height: auto;
     width: 30%;    
@@ -48,6 +48,23 @@
     margin-bottom: -125px;
 }
 
+.circle-3{
+    position: relative;
+    left: 2%;
+    top: 525px;
+    height: 100%;
+    width: auto;
+    margin-bottom: -400px;
+}
+
+.disp-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
 .main{
     background-image: url("src/assets/images/Rectangle_234.png");
     width: 100%;
@@ -56,6 +73,10 @@
     width: 100%;
     overflow: hidden; 
     padding: 100px 0px 200px 0px;
+}
+
+.mt-0{
+    margin-top: 0px !important;
 }
 
 .mt-30{
@@ -121,6 +142,11 @@
     width: auto;
     float: left;
     margin-bottom: -75px;
+}
+
+.sm-image{
+    height: 550px;
+    z-index: 10;
 }
 
 .subtitle{
