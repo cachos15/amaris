@@ -1,0 +1,58 @@
+<div class="main">
+    <div>
+    </div>
+    <div class="container information">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 disp-flex">
+                <img src="assets/images/Vector.png" alt="check">
+                <h6 class="no-margin">30 day money back guarantee</h6>
+            </div>
+            <div class="col-xs-12 col-sm-4 disp-flex">
+                <img src="assets/images/Vector_1.png" alt="support">
+                <h6 class="no-margin">Support teams across the world</h6>
+            </div>
+            <div class="col-xs-12 col-sm-4 disp-flex">
+                <img src="assets/images/Vector_2.png" alt="safe payment">
+                <h6 class="no-margin">Safe & Secure online payment</h6>
+            </div>
+        </div>
+        <div class="row disp-flex">
+            <img src="assets/images/LOGO_white.png" class="logo" alt="WooCommerce">
+        </div>
+        <hr class="horizontal-line"/>
+    </div>
+    <div class="container information">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg col-xl pad-space" *ngFor="let element of wooInfo; let i = index">
+                <div>
+                <h3 class="center-on-small"><b>{{element.title}}</b></h3><br>
+                <ul>
+                   <li class="center-on-small" *ngFor="let text of element.subtitles">
+                       {{text}}
+                   </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="main-2">
+    <div>
+    </div>
+    <div class="container information">
+        <div class="row">
+            <div class="col-xs-6 col-lg-4 disp-flex">
+                <img src="assets/images/Twitter.png" class="icon" alt="twitter">
+                <img src="assets/images/Facebook.png" class="icon" alt="facebook">
+                <img src="assets/images/Wifi.png" class="icon" alt="wifi">
+                <img src="assets/images/Instagram.png" class="icon" alt="instagram">
+            </div>
+            <div class="col-xs-6 col-lg-4 disp-flex center d-none d-md-block">
+                <h6 class="no-margin">COPYRIGHT AMARIS 2022 - TERMS & CONDITIONS  PRIVACY POLICY</h6>
+            </div>
+            <div class="col-xs-6 col-lg-4 disp-flex">
+                <img class="icon" src="assets/images/automattic.png" alt="automattic">
+            </div>
+        </div>
+    </div>
+</div>

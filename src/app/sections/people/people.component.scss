@@ -1,0 +1,83 @@
+@import '../../styles-variables.scss';
+
+.center{
+    text-align: center;
+}
+
+.deco-1{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    height: auto;
+    width: auto;
+    margin-bottom: -20px;
+}
+
+.deco-2{
+    position: relative;
+    left: 80px;
+    top: 130px;
+    height: auto;
+    width: auto;
+    margin-bottom: -130px;
+}
+
+.deco-3{
+    position: relative;
+    left: 63%;
+    top: 0px;
+    height: auto;
+    width: auto;
+}
+
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.no-overflow{
+    overflow: hidden;
+}
+
+.people{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.points-1{
+    position: relative;
+    left: -50px;
+    top: 180px;
+    height: auto;
+    width: auto;
+    margin-bottom: -250px;
+}
+
+.points-2{
+    position: relative;
+    left: 60%;
+    top: 100px;
+    height: auto;
+    width: auto;
+    margin-bottom: -350px;
+}
+
+.subtitle{
+    color: $light-gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    color: $lt-blue;
+}

@@ -1,0 +1,98 @@
+@import '../../styles-variables.scss';
+
+.card-1{
+    position: relative;
+    left: -140px;
+    top: 110px;
+    height: 300px;
+    width: auto;
+    float: left;
+    z-index: 4;
+}
+
+.center{
+  text-align: center;
+}
+
+.main{
+    background-image: url("src/assets/images/bg_gradient.png");
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.photo-1{
+    position: relative;
+    left: 20px;
+    top: 200px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.photo-2{
+    position: relative;
+    left: 20px;
+    top: 350px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.photo-3{
+    position: relative;
+    left: 20px;
+    top: 0px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.photo-4{
+    position: relative;
+    left: 20px;
+    top: -350px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.photo-5{
+    position: relative;
+    left: 20px;
+    top: 170px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.photo-6{
+    position: relative;
+    left: 200px;
+    top: -300px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.points-1{
+    position: relative;
+    left: 13%;
+    top: 100px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.points-2{
+    position: relative;
+    left: -20px;
+    top: -200px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}

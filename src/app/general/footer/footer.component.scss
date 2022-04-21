@@ -1,0 +1,79 @@
+@import '../../styles-variables.scss';
+
+.center{
+   text-align: center;
+}
+
+.disp-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    margin: 50px;
+}
+
+.icon{
+    padding: 20px;
+}
+
+.information{
+    padding: 20px;
+}
+
+.logo{
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+}
+
+.main{
+    background-color: $bt-purple;
+    width: 100%;
+    height: auto;
+    color: $white;
+}
+
+.main-2{
+    background-color: $white;
+    width: 100%;
+    height: auto;
+    color: $lt-blue;
+}
+
+.no-margin{
+    margin: 0px;
+    padding: 10px;
+}
+
+.pad-space{
+    padding: 40px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+ }
+
+ 
+@media (max-width: 575px) {
+    /*xs equivalent*/   
+    .logo{
+        margin-top: 50px;
+    }
+
+    .no-margin{
+        padding: 30px 10px;
+    }
+}
+
+ 
+@media (max-width: 1199px) {
+    /*xl equivalent*/
+    .center-on-small{
+        text-align: center;
+    }
+}

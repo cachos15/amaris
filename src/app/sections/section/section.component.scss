@@ -1,0 +1,135 @@
+@import '../../styles-variables.scss';
+
+.button-sry{
+    background-color: $bt-green;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 60px;
+    padding: 22px 26px;
+}
+
+.card-1{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    float: left;
+    height: auto;
+    width: 30%;
+    margin-bottom: -50px;
+}
+
+.card-2{
+    position: relative;
+    left: -500px;
+    top: 350px;
+    float: left;
+    height: auto;
+    width: 30%;
+    margin-bottom: -350px;
+}
+
+.circle-1{
+    position: relative;
+    left: 10%;
+    top: 0px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.circle-2{
+    position: relative;
+    left: 42%;
+    top: 125px;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-bottom: -125px;
+}
+
+.main{
+    background-image: url("src/assets/images/Rectangle_234.png");
+    width: 100%;
+    background-size: cover;
+    color: $white;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.people{
+    position: relative;
+    left: 10%;
+    top: 50px;
+    float: left;
+    z-index: 2;
+    height: 550px;
+    margin-bottom: -50px;
+}
+
+.points-1{
+    position: relative;
+    left: 13%;
+    top: -100px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.points-2{
+    position: relative;
+    left: 13%;
+    top: -200px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.small-circle-1{
+    position: relative;
+    left: 0%;
+    top: 50px;
+    height: auto;
+    width: auto;
+    float: left;
+    z-index: 10;
+    margin-bottom: -50px;
+}
+
+.small-circle-2{
+    position: relative;
+    left: 35px;
+    top: 75px;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-bottom: -75px;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.woman{
+    position: relative;
+    left: -5%;
+    top: 0px;
+    float: left;
+    height: 550px;
+}

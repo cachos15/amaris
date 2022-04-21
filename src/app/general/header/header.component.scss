@@ -1,0 +1,46 @@
+@import '../../styles-variables.scss';
+.bt-space{
+    margin: 0px 20px;
+}
+
+.bt-space-sm{
+    margin: 0px 10px;
+}
+
+.button-pry{
+    background-color: $bt-purple;
+    border-radius: 5px;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    height: 60px;
+    padding: 15px;
+}
+
+.image-back{
+    z-index: 0;
+}
+
+.main{
+    padding: 45px 55px;
+}
+
+.navbar-brand{
+    margin: 0px 5% 0px 0px;
+}
+
+.nav-item{
+    font-weight: bold;
+    font-size: 18px;
+    color: $lt-blue;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.purple{
+    color: $bt-purple !important;
+}

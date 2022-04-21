@@ -1,0 +1,87 @@
+@import '../../styles-variables.scss';
+
+.button-pry{
+    background-color: $bt-purple;
+    border-radius: 60px;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    height: 60px;
+    padding: 10px 30px;
+}
+
+.featured{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+
+.hero{
+    height: 500px;
+}
+
+.link{
+    color: $link;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.subtitle{
+    color: $light-gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-front{
+    z-index: 1;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    color: $lt-blue;
+}
+
+@media (min-width: 1900px) {
+    .featured{
+        height: 700px;
+        width: auto;
+    }
+    
+    .title{
+        font-size: 85px;
+    }
+  }
+
+@media (min-width: 992px) {
+    /*lg equivalent*/
+    .left-margin{
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 991px) {
+    /*less than lg equivalent*/
+    .content-margin{
+        margin: 10%;
+    }
+
+    .disp-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1899px) {
+    .featured{
+        height: 550px;
+        width: auto;
+    }
+}

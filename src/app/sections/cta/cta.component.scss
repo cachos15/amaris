@@ -1,0 +1,53 @@
+@import '../../styles-variables.scss';
+
+.button-pry{
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid $white;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    height: 60px;
+    padding: 10px 30px;
+    width: 250px;
+}
+
+.disp-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 64px 0px;
+}
+
+.ellipse{
+    position: relative;
+    left: 90%;
+    height: auto;
+    width: auto;
+    top: 140px;
+    margin-bottom: -90px;
+}
+
+.main{
+    background-color: $bg-purple;
+    width: 100%;
+    height: auto;
+    color: $white;
+}
+
+@media (max-width: 991px) {
+    /*lg equivalent*/
+    .center{
+        text-align: center;
+    }
+    
+    .disp-flex{
+        padding: 20px 0px 44px 0px;
+    }
+
+    .ellipse{
+        left: 75%;
+        top: 200px;
+    }
+}
