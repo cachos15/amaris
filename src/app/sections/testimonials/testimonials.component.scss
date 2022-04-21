@@ -97,6 +97,7 @@
     transform: rotate(90deg);
 }
 
+
 .title{
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
@@ -104,25 +105,57 @@
     color: $lt-blue;
 }
 
-@media (max-width: 1200px) {
-    /*less than xl equivalent*/
-    .card-1 {
-        position: absolute;
-        left: 10%;
-        height: auto;
-        width: 80%;
-        float: none; 
-        margin-top: 20px;
-        z-index: 4;
+@media (max-width: 500px) {  
+    .card-1{
+        margin-top: 100px;
+    }
+
+    .main{
+        height: 300px;
+    }
+
+    .points-1, .points-2{
+        display: none;
+    }
+} 
+
+@media (max-width: 700px) {   
+    .card-1{
+        height: 300px;
+        width: auto;
+    } 
+}
+
+@media (max-width: 996px) {    
+    .sm-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .photo-2, .photo-4{
+        display: none !important;
+    }
+
+    .card-1, .points-1{
+        left: inherit;
+        top: inherit;
+    }
+}
+
+@media (max-width: 1450px) {
+    .photo-1, .photo-3, .photo-5, .photo-6{
+        display: none !important;
+    }
+
+    .photo-4{
+        left: 25%;
     }
 
     .points-2 {
-        position: relative;
-        left: 50%;
+        left: 35%;
         top: 0px;
-        height: auto;
-        width: auto;
-        float: left;
     }
 }
 
@@ -151,10 +184,14 @@
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1600px) {
+@media (min-width: 1400px) and (max-width: 1600px) {
     .card-1{
         left: 25%;
         height: auto;
         width: 50%;
+    }
+
+    .photo-6{
+        left: 0%;
     }
 }
